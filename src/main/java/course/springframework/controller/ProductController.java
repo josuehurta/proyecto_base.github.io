@@ -1,13 +1,30 @@
 package course.springframework.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import course.springframework.services.ProductService;
 
 @Controller
 public class ProductController {
-	
+
+	@Autowired
+	private ProductService productService;
+
 	@GetMapping("/product")
-	public String getProduct() {
+    public String getProductPage(Model model) {
+        // Añadir datos al modelo si es necesario
+        return "product"; // Nombre del template Thymeleaf
+    }
+	
+	@GetMapping("/product/{id}")
+	public String getProduct(@PathVariable int id, Model model) {
+		var product = productService.getProduct(id);
+		System.out.println(product.getCourseName());
+		model.addAttribute("product", product);
 		return "product";
 	}
 
