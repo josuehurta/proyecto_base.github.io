@@ -81,7 +81,7 @@ public class ProductServiceImpl implements ProductService  {
         springCoreUltimate.setCourseName("Spring core Ultimate");
         springCoreUltimate.setCourseSubtitle("ultimate bundle of spring core!");
         springCoreUltimate.setAuthor(jt);
-        springCoreUltimate.setCourseDescription("why would you want to learn about the spring framework?");
+        springIntro.setCourseDescription("why would you want to learn about the spring framework? Simple, spring is the most widely used framework in the enterprise today. Major companies all over the world are hiring programmers who know Spring frameword \n My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java. \nYou will leam what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hat to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use");
 
         springCoreUltimate.setPrice(new BigDecimal("199"));
         springCoreUltimate.setImageUrl("SpringIntroThumb.png");
@@ -95,7 +95,7 @@ public class ProductServiceImpl implements ProductService  {
         thymeleaf.setCourseName("Thymeleaf");
         thymeleaf.setCourseSubtitle("Thymeleaf and Spring!");
         thymeleaf.setAuthor(jt);
-        thymeleaf.setCourseDescription("why would you want to learn about the spring framework?");
+        springIntro.setCourseDescription("why would you want to learn about the spring framework? Simple, spring is the most widely used framework in the enterprise today. Major companies all over the world are hiring programmers who know Spring frameword \n My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java. \nYou will leam what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hat to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use");
 
         thymeleaf.setPrice(new BigDecimal("199"));
         thymeleaf.setImageUrl("SpringIntroThumb.png");
@@ -108,7 +108,7 @@ public class ProductServiceImpl implements ProductService  {
         springCore.setCourseName("Spring core");
         springCore.setCourseSubtitle("Spring core - matering Spring!");
         springCore.setAuthor(jt);
-        springCore.setCourseDescription("why would you want to learn about the spring framework?");
+        springIntro.setCourseDescription("why would you want to learn about the spring framework? Simple, spring is the most widely used framework in the enterprise today. Major companies all over the world are hiring programmers who know Spring frameword \n My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java. \nYou will leam what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hat to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use");
 
         springCore.setPrice(new BigDecimal("199"));
         springCore.setImageUrl("SpringIntroThumb.png");
@@ -122,7 +122,7 @@ public class ProductServiceImpl implements ProductService  {
         springCoreAdv.setCourseName("Spring core");
         springCoreAdv.setCourseSubtitle("Spring core - matering Spring!");
         springCoreAdv.setAuthor(jt);
-        springCoreAdv.setCourseDescription("why would you want to learn about the spring framework?");
+        springIntro.setCourseDescription("why would you want to learn about the spring framework? Simple, spring is the most widely used framework in the enterprise today. Major companies all over the world are hiring programmers who know Spring frameword \n My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java. \nYou will leam what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hat to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use");
 
         springCoreAdv.setPrice(new BigDecimal("199"));
         springCoreAdv.setImageUrl("SpringIntroThumb.png");
@@ -139,7 +139,7 @@ public class ProductServiceImpl implements ProductService  {
         springCoreDevOps.setCourseName("Spring core");
         springCoreDevOps.setCourseSubtitle("Spring core - matering Spring!");
         springCoreDevOps.setAuthor(jt);
-        springCoreDevOps.setCourseDescription("why would you want to learn about the spring framework?");
+        springIntro.setCourseDescription("why would you want to learn about the spring framework? Simple, spring is the most widely used framework in the enterprise today. Major companies all over the world are hiring programmers who know Spring frameword \n My Introduction Spring Framework Tutorial is designed to give you an introduction to the Spring Framework This course is written for beginners. Ideally before taking the course, you should already have a foundation with the Java programming language. You don't need to be an expert in Java, but you should the basics of Object Oriented Programming with Java. \nYou will leam what Dependency Injection is, and how Spring uses Inversion of Control to leverage Dependency Injection. Next in my course, I will walk you step by step through building your very first Spring Framework application. I'll show you hat to use the Spring Initializer and Spring Boot to jumpstart your Spring Framework project. Ideally, you can follow along and create your own Spring project. I know it can be frustrating to follow along in a course and run into errors. So don't worry, I have the complete source code examples in Git for you to checkout and use");
 
         springCoreDevOps.setPrice(new BigDecimal("199"));
         springCoreDevOps.setImageUrl("SpringIntroThumb.png");
